@@ -1,6 +1,4 @@
-from enum import Enum
 from abc import ABC, abstractmethod
-from functools import reduce
 import re
 
 class Instruction(ABC):
